@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cream"
+    android:background="@color/cream"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#F6E440"
+        android:onClick="optionSelect"
+        android:text="Button"
+        android:textSize="20sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="136dp"
+        android:layout_height="98dp"
+        android:backgroundTint="#0EF170"
+        android:text="Button"
+        android:textSize="20sp"
+        android:onClick="optionSelect"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="136dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#F43979"
+        android:onClick="optionSelect"
+        android:text="Button"
+        android:textSize="20sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="136dp"
+        android:layout_height="98dp"
+        android:backgroundTint="#2196F3"
+        android:text="Button"
+        android:textSize="20sp"
+        android:onClick="optionSelect"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/QuestionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:background="#E17AF8"
+        android:backgroundTint="#FFFFFF"
+        android:drawablePadding="20dp"
+        android:text="@string/question"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:background="#FF9800"
+        android:backgroundTint="#A1EC60"
+        android:drawablePadding="20dp"
+        android:text="@string/time"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ScoreTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="64dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#FF9900"
+        android:drawablePadding="20dp"
+        android:text="@string/score"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/TimeTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AlertTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FFFFFF"
+        android:drawablePadding="20dp"
+        android:text="@string/message"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

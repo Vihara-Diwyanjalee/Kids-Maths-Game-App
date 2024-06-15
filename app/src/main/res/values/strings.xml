@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KidsMathsGame</string>
+    <string name="kids_maths">Kid\'s Math\'s</string>
+    <string name="question">29 + 12</string>
+    <string name="time">30s</string>
+    <string name="score">0/0</string>
+    <string name="message">Let\'s Do it !</string>
+    <string name="game_over">- Game Over -</string>
+    <string name="your_score">Your Score</string>
+    <string name="final_score">0/0</string>
+</resources>

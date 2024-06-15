@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:textAlignment="center"
+    tools:context=".PlayActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="368dp"
+        android:background="@color/white"
+        android:backgroundTint="#83E0F3"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/kids_maths"
+        android:textColor="#9C27B0"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/addtion"
+        android:layout_width="92dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="279dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/sub"
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="279dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/sub" />
+
+    <ImageView
+        android:id="@+id/multi"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="187dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/divie"
+        android:layout_width="95dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="175dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/devision" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
