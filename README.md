@@ -1,6 +1,6 @@
-# Egg Catcher (Android Mobile Game)
+# Kids Maths Game (Android Mobile Game)
 
-<p><a href="https://github.com/vihara-diwyanjalee"><img src="https://skillicons.dev/icons?i=kotlin,androidstudio,git,github" width=200></a></p>
+<p><a href="https://github.com/Vihara-Diwyanjalee"><img src="https://skillicons.dev/icons?i=kotlin,androidstudio,git,github" width=200></a></p>
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ To set up the project locally, follow these steps:
 **1. Clone the repository.**
 
 ```
-git clone https://github.com/kavindu-dilshan/EggCatcher.git
+git clone https://github.com/Vihara-Diwyanjalee/Kids-Maths-Game-App.git
 ```
 
 **2. Open the project in Android Studio.**
@@ -38,4 +38,4 @@ git clone https://github.com/kavindu-dilshan/EggCatcher.git
 
 ## Screenshots
 
-<img src="https://github.com/kavindu-dilshan/EggCatcher/blob/main/app/src/main/res/drawable/screenshots.png" alt="EggCatcher-Screenshots">
+<img src="https://github.com/Vihara-Diwyanjalee/EggCatcher/blob/main/app/src/main/res/drawable/screenshots.png" alt="EggCatcher-Screenshots">
