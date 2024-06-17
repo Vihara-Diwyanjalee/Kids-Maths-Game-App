@@ -38,4 +38,4 @@ git clone https://github.com/Vihara-Diwyanjalee/Kids-Maths-Game-App.git
 
 ## Screenshots
 
-<img src="https://github.com/Vihara-Diwyanjalee/Kids-Maths-Game-App/blob/main/app/src/main/res/drawable/sceenshots.png" alt="KidsMathsGame-Screenshots">
+<img src="https://github.com/Vihara-Diwyanjalee/Kids-Maths-Game-App/blob/main/app/src/main/res/drawable/sceenshots.png" alt="KidsMathsGame-Screenshots" width=1000>
